@@ -29,7 +29,7 @@ def main():
     while True:
         
         secretNum = getSecretNum()
-        print('숫자를 생각해 보세요?')
+        print('숫자를 생각해 보세요.{}자리'.format(NUM_DIGITS))
         print('당신은 {} 번째를 시도 하실 수 있습니다.'.format(MAX_GUESSES))
         
         numGuesses = 1
